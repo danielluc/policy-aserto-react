@@ -1,4 +1,4 @@
-package policies.hello
+package asertodemo.GET.api.protected
 
 # default to a "closed" system, 
 # only grant access when explicitly granted
@@ -8,7 +8,7 @@ default visible = false
 default enabled = false
 
 allowed {
-    input.role == "web-admin"
+    true
 }
 
 enabled {
