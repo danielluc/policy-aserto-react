@@ -8,7 +8,7 @@ default visible = false
 default enabled = false
 
 allowed {
-    false
+    true
 }
 
 enabled {
