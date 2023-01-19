@@ -10,7 +10,7 @@ default enabled = false
 import input.user.attributes.properties.groups as groups
 
 allowed {
-    groups[_] == "labkoat.media"
+    groups[_] == "labkoat.medi"
 }
 
 enabled {
