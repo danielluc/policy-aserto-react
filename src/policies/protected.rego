@@ -7,8 +7,10 @@ default allowed = false
 default visible = false
 default enabled = false
 
+import input.user.attributes.properties.groups as groups
+
 allowed {
-    true
+    groups[_] == "labkoat.media"
 }
 
 enabled {
