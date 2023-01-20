@@ -15,7 +15,6 @@ token = {"payload": payload} {
 
 allowed {
     groups[_] == "labkoat.media"
-    roles[_] == "editor"
     token.payload.iss == "https://movielabs.okta.com/oauth2/default"
 }
 
