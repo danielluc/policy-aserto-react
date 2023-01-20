@@ -16,7 +16,7 @@ token = {"payload": payload} {
 }
 
 allowed {
-    token.payload.sub == sub
+    token.payload.sub == "00u3bk41ua3xnzqGT696"
     token.payload.iss == "https://movielabs.okta.com/oauth2/default"
 }
 
