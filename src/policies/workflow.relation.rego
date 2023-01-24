@@ -16,5 +16,5 @@ import input.user.key as sub
 identity := true
 
 allowed = {
-    identity = true
+    true
 }
