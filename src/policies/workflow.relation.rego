@@ -13,7 +13,7 @@ import input.user.key as sub
 # identity = ds.identity({ "key": "euang@acmecorp.com" })
 # idDept = ds.object({ "type": "identity", "key": "euang@acmecorp.com" })
 
-identity := true
+# identity := true
 
 allowed = {
     true
