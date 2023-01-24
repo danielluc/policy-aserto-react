@@ -3,7 +3,7 @@ package asertodemo.GET.api.workflow.relation
 # default to a "closed" system, 
 # only grant access when explicitly granted
 
-default allowed = { "reason": "denied" }
+## default allowed = { "reason": "denied" }
 
 import input.user.properties.groups as groups
 import input.user.properties.roles as roles
