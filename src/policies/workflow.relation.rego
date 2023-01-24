@@ -16,5 +16,5 @@ identity = ds.identity({ "key": "euang@acmecorp.com" })
 # identity := true
 
 allowed {
-    identity.id = "dfdadc39-7335-404d-af66-c77cf13a15f8"
+    identity.id == "dfdadc39-7335-404d-af66-c77cf13a15f8"
 }
