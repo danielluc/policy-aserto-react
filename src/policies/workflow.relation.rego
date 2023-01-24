@@ -3,7 +3,7 @@ package asertodemo.GET.api.workflow.relation
 # default to a "closed" system, 
 # only grant access when explicitly granted
 
-default allow = { "reason": "denied" }
+default allowed = false
 
 import input.user.properties.groups as groups
 import input.user.properties.roles as roles
@@ -13,10 +13,6 @@ import input.user.key as sub
 identity = ds.identity({ "key": "euang@acmecorp.com" })
 idDept = ds.object({ "type": "identity", "key": "euang@acmecorp.com" })
 
-allow = {"result": "allow"} {
+allowed = {
     identity
-}
-
-allow = {"result": "deny"} {
-    not identity
 }
