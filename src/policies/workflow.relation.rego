@@ -10,10 +10,8 @@ import input.user.properties.roles as roles
 import input.user.key as sub
 
 ## inDept = ds.object ({ "id": "427a00b2-8934-462e-b2c3-46612ebe1292" })
-# identity = ds.identity({ "key": "euang@acmecorp.com" })
-# idDept = ds.object({ "type": "identity", "key": "euang@acmecorp.com" })
-
-identity := true
+identity = ds.identity({ "key": "euang@acmecorp.com" })
+idDept = ds.object({ "type": "identity", "key": "euang@acmecorp.com" })
 
 allowed = {
     identity
