@@ -13,10 +13,10 @@ import input.user.key as sub
 identity = ds.identity({ "key": "euang@acmecorp.com" })
 idDept = ds.object({ "type": "identity", "key": "euang@acmecorp.com" })
 
-allow = {"result": "allow"} =  {
+allow = {"result": "allow"} {
     identity
 }
 
-allow = {"result": "deny"} =  {
-    !identity
+allow = {"result": "deny"} {
+    not identity
 }
