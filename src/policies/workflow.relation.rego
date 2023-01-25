@@ -11,4 +11,15 @@ deptName := "editorial"
 allowed {
   user.id = "b903673e-33e2-4933-b0a1-2133ee20d09a"
   user.key = "00u3bk41ua3xnzqGT696"
+  ds.check_relation({
+    "subject": user.id,
+    "object": ds.object({
+      "key": "editorial",
+      "type": "department"
+    }).id,
+    "relation": {
+      "object_type": "department",
+      "name": "member"
+    }
+  })
 }
