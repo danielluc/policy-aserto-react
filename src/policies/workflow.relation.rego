@@ -17,7 +17,7 @@ allowed {
     }).id,
     "relation": {
       "object_type": "department",
-      "name": "member"
+      "name": "owner"
     }
   })
 }
