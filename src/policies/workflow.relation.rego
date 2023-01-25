@@ -9,15 +9,5 @@ import input.user.id as userId
 deptName := "editorial"
 
 allowed {
-  ds.check_relation({
-    "subject": userId,
-    "object": ds.object({
-      "key": deptName,
-      "type": "department"
-    }).id,
-    "relation": {
-      "object_type": "department",
-      "name": "owner"
-    }
-  })
+  userId = "b903673e-33e2-4933-b0a1-2133ee20d09a"
 }
