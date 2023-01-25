@@ -17,7 +17,7 @@ allowed {
     "relation": {
       "object_type": "department",
       "name": "member"
-    }
+    },
     "object": {
       "key": "editorial",
       "type": "department"
