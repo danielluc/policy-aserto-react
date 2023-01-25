@@ -12,7 +12,7 @@ allowed {
   user.key = "00u3bk41ua3xnzqGT696"
   ds.check_relation({
     "subject": {
-      "id": user.id
+      "id": "b903673e-33e2-4933-b0a1-2133ee20d09a"
     },
     "relation": {
       "object_type": "department",
