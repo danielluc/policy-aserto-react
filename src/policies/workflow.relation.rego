@@ -12,7 +12,7 @@ allowed {
   user.id = "b903673e-33e2-4933-b0a1-2133ee20d09a"
   user.key = "00u3bk41ua3xnzqGT696"
   user2 = ds.object(user.id)
-  department = ds.object({ key: "editorial", type: "department" })
+  department = ds.object({ "key": "editorial", "type": "department" })
   ds.check_relation({
     "subject": user2.id,
     "object": ds.object({
