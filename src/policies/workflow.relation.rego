@@ -11,5 +11,5 @@ deptName := "editorial"
 allowed {
   user.id = "b903673e-33e2-4933-b0a1-2133ee20d09a"
   user.key = "00u3bk41ua3xnzqGT696"
-  user2 = ds.object("dlucas@labkoat.media")
+  user2 = ds.object("id": "b903673e-33e2-4933-b0a1-2133ee20d09a")
 }
