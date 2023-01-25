@@ -18,8 +18,9 @@ allowed {
       "object_type": "department",
       "name": "member"
     },
-    "object": {
+    "object" {
       "key": "editorial",
       "type": "department"
-    })
+    }
+  })
 }
