@@ -4,6 +4,7 @@ package asertodemo.GET.api.workflow.relation
 # only grant access when explicitly granted
 
 default allowed = false
+default testId = "Hello"
 
 import input.user.properties.groups as groups
 import input.user.properties.roles as roles
@@ -17,4 +18,5 @@ identity = ds.identity({ "key": "euang@acmecorp.com" })
 
 allowed {
     identity.id == "dfdadc39-7335-404d-af66-c77cf13a15f8"
+
 }
