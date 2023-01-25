@@ -4,7 +4,7 @@ package asertodemo.GET.api.workflow.relation
 # only grant access when explicitly granted
 
 default allowed = false
-default visable = false
+default visable = {"test": true}
 default testId = "Hello"
 
 import input.user.properties.groups as groups
@@ -21,6 +21,8 @@ allowed {
     identity.id == "dfdadc39-7335-404d-af66-c77cf13a15f8"
 
 }
+
+
 
 idTest {
   true
