@@ -12,15 +12,15 @@ allowed {
   user.key = "00u3bk41ua3xnzqGT696"
   ds.check_relation({
     "subject": {
-      "id": "b903673e-33e2-4933-b0a1-2133ee20d09a"
+      "id": "b903673e-33e2-4933-b0a1-2133ee20d09a",
     },
     "relation": {
       "object_type": "department",
-      "name": "member"
+      "name": "member",
     },
     "object" {
       "key": "editorial",
-      "type": "department"
+      "type": "department",
     }
   })
 }
