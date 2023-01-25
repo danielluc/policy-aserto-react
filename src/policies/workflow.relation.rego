@@ -10,7 +10,7 @@ deptName := "editorial"
 
 allowed {
   ds.check_relation({
-    "subject": user.id,
+    "subject": userId,
     "object": ds.object({
       "key": deptName,
       "type": "department"
